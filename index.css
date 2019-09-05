@@ -8,10 +8,13 @@
   outline: 0;
 }
 
+
+
 body {
   background-image: url(https://kamlapinski.github.io/sovereign/bg.jpg);
   background-color: #000000;
   color: #ffffff;
+  width: 100%;
 }
 
 .language {
@@ -435,9 +438,16 @@ article h1 {
   article h1 {
     margin: 15% 5% 5% 5%;
   }
- 
+
   .container {
-    width: 96%;
+    width: 100%;
+    position: relative;
+    margin-left:0;
+    margin-right:0;
+    clear: both;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   }
 
   .team h1 {
@@ -617,14 +627,14 @@ article h1 {
     width: 100%;
     margin-top: 10%;
   }
-  
+
   .aboutImg2 img {
     margin: 0;
     width: 100%;
     margin-bottom: 10%;
     clear: both;
   }
-  
+
   .language {
     top: 110px;
     left: 84%;
