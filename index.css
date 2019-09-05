@@ -12,6 +12,7 @@ body {
   background-image: url(https://kamlapinski.github.io/sovereign/bg.jpg);
   background-color: #000000;
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 .language {
@@ -627,7 +628,7 @@ article h1 {
   
   .language {
     top: 110px;
-    left: 85%;
+    left: 84%;
   }
 }
 
