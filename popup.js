@@ -5,5 +5,4 @@ let outPopup = function() {
     black.style.display='none';
     popup.style.display='none';
 };
-
 popupX.addEventListener('click', outPopup);
